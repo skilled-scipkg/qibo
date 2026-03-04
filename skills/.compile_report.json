@@ -1,0 +1,309 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "qibo",
+  "evidence": {
+    "core_skills": [
+      "qibo-examples-and-tutorials",
+      "qibo-getting-started",
+      "qibo-simulation-workflows",
+      "qibo-inputs-and-modeling",
+      "qibo-developer-guide",
+      "qibo-api-and-scripting"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/qibo-examples-and-tutorials.md",
+      "skills/.evidence/qibo-getting-started.md",
+      "skills/.evidence/qibo-simulation-workflows.md",
+      "skills/.evidence/qibo-inputs-and-modeling.md",
+      "skills/.evidence/qibo-developer-guide.md",
+      "skills/.evidence/qibo-api-and-scripting.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [],
+      "changed": [
+        "skills/qibo-api-and-scripting/SKILL.md",
+        "skills/qibo-developer-guide/SKILL.md",
+        "skills/qibo-examples-and-tutorials/SKILL.md",
+        "skills/qibo-getting-started/SKILL.md",
+        "skills/qibo-inputs-and-modeling/SKILL.md",
+        "skills/qibo-simulation-workflows/SKILL.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/qibo-api-and-scripting/SKILL.md",
+        "skills/qibo-developer-guide/SKILL.md",
+        "skills/qibo-examples-and-tutorials/SKILL.md",
+        "skills/qibo-getting-started/SKILL.md",
+        "skills/qibo-inputs-and-modeling/SKILL.md",
+        "skills/qibo-simulation-workflows/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/qibo-api-and-scripting/references/doc_map.md",
+        "skills/qibo-api-and-scripting/references/source_map.md",
+        "skills/qibo-appendix/SKILL.md",
+        "skills/qibo-appendix/references/doc_map.md",
+        "skills/qibo-appendix/references/source_map.md",
+        "skills/qibo-build-and-install/SKILL.md",
+        "skills/qibo-build-and-install/references/doc_map.md",
+        "skills/qibo-build-and-install/references/source_map.md",
+        "skills/qibo-developer-guide/SKILL.md",
+        "skills/qibo-developer-guide/references/doc_map.md",
+        "skills/qibo-developer-guide/references/source_map.md",
+        "skills/qibo-examples-and-tutorials/references/doc_map.md",
+        "skills/qibo-examples-and-tutorials/references/source_map.md",
+        "skills/qibo-getting-started/references/doc_map.md",
+        "skills/qibo-getting-started/references/source_map.md",
+        "skills/qibo-index/SKILL.md",
+        "skills/qibo-inputs-and-modeling/SKILL.md",
+        "skills/qibo-inputs-and-modeling/references/doc_map.md",
+        "skills/qibo-inputs-and-modeling/references/source_map.md",
+        "skills/qibo-simulation-workflows/references/doc_map.md",
+        "skills/qibo-simulation-workflows/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/qibo-api-and-scripting/references/doc_map.md",
+        "skills/qibo-api-and-scripting/references/source_map.md",
+        "skills/qibo-appendix/SKILL.md",
+        "skills/qibo-appendix/references/doc_map.md",
+        "skills/qibo-appendix/references/source_map.md",
+        "skills/qibo-build-and-install/SKILL.md",
+        "skills/qibo-build-and-install/references/doc_map.md",
+        "skills/qibo-build-and-install/references/source_map.md",
+        "skills/qibo-developer-guide/SKILL.md",
+        "skills/qibo-developer-guide/references/doc_map.md",
+        "skills/qibo-developer-guide/references/source_map.md",
+        "skills/qibo-examples-and-tutorials/references/doc_map.md",
+        "skills/qibo-examples-and-tutorials/references/source_map.md",
+        "skills/qibo-getting-started/references/doc_map.md",
+        "skills/qibo-getting-started/references/source_map.md",
+        "skills/qibo-index/SKILL.md",
+        "skills/qibo-inputs-and-modeling/SKILL.md",
+        "skills/qibo-inputs-and-modeling/references/doc_map.md",
+        "skills/qibo-inputs-and-modeling/references/source_map.md",
+        "skills/qibo-simulation-workflows/references/doc_map.md",
+        "skills/qibo-simulation-workflows/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "doc/source"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Dry run validated with explicit directory flags for deterministic generation.",
+      "Examples contain many runnable workflows and are treated as tutorial roots.",
+      "Generator script had a Python f-string parsing bug fixed for deterministic execution."
+    ],
+    "package_name": "qibo",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "src"
+    ],
+    "test_dirs": [
+      "tests"
+    ],
+    "tutorial_dirs": [
+      "examples"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/qibo-qibo",
+  "run_id": "compile_20260304T145539716206Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "qibo-api-and-scripting",
+      "qibo-appendix",
+      "qibo-build-and-install",
+      "qibo-developer-guide",
+      "qibo-examples-and-tutorials",
+      "qibo-getting-started",
+      "qibo-index",
+      "qibo-inputs-and-modeling",
+      "qibo-simulation-workflows"
+    ],
+    "core_skill_ids": [
+      "qibo-examples-and-tutorials",
+      "qibo-getting-started",
+      "qibo-simulation-workflows",
+      "qibo-inputs-and-modeling",
+      "qibo-developer-guide",
+      "qibo-api-and-scripting"
+    ],
+    "deferred_gaps": [
+      "Backend-specific runtime behavior depends on optional packages (qibojit/qulacs/qiskit/qbraid) and should be validated in pass 3 audit.",
+      "No separate tutorials/ directory exists; examples are used as tutorial roots for this compile run."
+    ],
+    "goal": "Generate deterministic qibo skill skeletons, then enrich and audit the highest-impact user workflows in passes 2/3.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "request triage into generated topic skills",
+          "docs-first escalation policy before source inspection",
+          "explicit routing to examples and tests when applicable"
+        ],
+        "reason": "All downstream routing quality depends on a strong docs-first index entry point.",
+        "skill_id": "qibo-index",
+        "source_hints": [
+          "doc/source/index.rst",
+          "doc/source/getting-started",
+          "examples",
+          "tests",
+          "src/qibo"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "installation and environment setup",
+          "backend selection basics",
+          "minimal working circuit execution path"
+        ],
+        "reason": "Installation and first-run setup is the top onboarding bottleneck.",
+        "skill_id": "qibo-getting-started",
+        "source_hints": [
+          "doc/source/getting-started/installation.rst",
+          "doc/source/getting-started/quickstart.rst",
+          "README.md",
+          "src/qibo/__init__.py"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "core circuit/gate programming flow",
+          "model-level APIs and execution patterns",
+          "where to find advanced API references"
+        ],
+        "reason": "Most practical usage requests map to Python API workflows.",
+        "skill_id": "qibo-api-and-scripting",
+        "source_hints": [
+          "doc/source/api-reference/qibo.rst",
+          "src/qibo/gates",
+          "src/qibo/models",
+          "src/qibo/backends"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "circuit execution lifecycle",
+          "sampling and result handling",
+          "backend/runtime performance considerations"
+        ],
+        "reason": "Execution workflow questions (run, sampling, outputs) are frequent and error-prone.",
+        "skill_id": "qibo-simulation-workflows",
+        "source_hints": [
+          "doc/source/getting-started/backends.rst",
+          "doc/source/code-examples/applications.rst",
+          "src/qibo/result.py",
+          "src/qibo/backends"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "mapping user goals to example folders",
+          "minimal reproducible command/script patterns",
+          "common example prerequisites and pitfalls"
+        ],
+        "reason": "The repository has a large examples corpus that should anchor runnable guidance.",
+        "skill_id": "qibo-examples-and-tutorials",
+        "source_hints": [
+          "doc/source/code-examples",
+          "examples",
+          "examples/test_examples.py"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "base dependency installation path",
+          "optional extras/backend dependency matrix",
+          "docs/test task execution commands"
+        ],
+        "reason": "Dependency and optional-backend setup causes recurring environment failures.",
+        "skill_id": "qibo-build-and-install",
+        "source_hints": [
+          "pyproject.toml",
+          "doc/source/getting-started/installation.rst",
+          "doc/Makefile"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "qibo-examples-and-tutorials",
+      "qibo-simulation-workflows",
+      "qibo-getting-started",
+      "qibo-inputs-and-modeling",
+      "qibo-developer-guide",
+      "qibo-build-and-install"
+    ],
+    "docs_only": false,
+    "errors": [],
+    "index_skills": [
+      "qibo-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": true,
+    "planned_skill_ids": [
+      "qibo-index",
+      "qibo-getting-started",
+      "qibo-api-and-scripting",
+      "qibo-simulation-workflows",
+      "qibo-examples-and-tutorials",
+      "qibo-build-and-install"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 9,
+    "source_inventory": {},
+    "source_links_total": 108,
+    "topic_skills": 8,
+    "warnings": []
+  }
+}
